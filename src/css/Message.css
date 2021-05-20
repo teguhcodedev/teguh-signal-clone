@@ -1,0 +1,28 @@
+.message{
+display:flex;
+padding:8px;
+margin:8px;
+font-size: 15px;
+
+}
+
+.message__content{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    background-color:rgb(72,72,195);
+    border-radius:12px;
+    padding:10px;
+    position: relative;
+}
+
+.message__content >span{
+    color: lightgray;
+    border-bottom: 1px solid gray;
+}
+
+.message__content >small{
+    position:absolute;
+    right:0;
+    bottom:-18px;
+}
